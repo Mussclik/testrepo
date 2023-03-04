@@ -16,5 +16,7 @@ public class conflict : MonoBehaviour
     {
         cube.transform.Rotate(1,1,1);
         cube.transform.Translate(3, 3, 3);
+        Vector3 move = new Vector3(1, 1, 1);
+        cube.transform.Translate(move);
     }
 }
